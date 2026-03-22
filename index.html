@@ -531,6 +531,11 @@
       .top-nav {
         position: sticky;
         top: 8px;
+        left: auto;
+        transform: none;
+        width: calc(100% - 16px);
+        margin: 0 auto;
+        padding: 10px 12px;
       }
 
       .brand {
@@ -545,6 +550,7 @@
 
       .nav-links {
         justify-content: center;
+        row-gap: 6px;
       }
 
       .hero {
@@ -670,19 +676,6 @@
         </div>
 
         <section class="launch-grid" aria-label="Destination links">
-          <a class="launch-card reveal" href="./dashboard_v2.html">
-            <span class="card-tag">Core Analytics</span>
-            <h3>Nigerian Food Price Tracker Dashboard</h3>
-            <p>Comprehensive multi-section dashboard for geographic arbitrage, seasonality, volatility, and executive
-              snapshot metrics.</p>
-            <div class="card-meta">
-              <span class="chip">Charts</span>
-              <span class="chip">Executive View</span>
-              <span class="chip">Interactive</span>
-            </div>
-            <span class="card-cta">Launch dashboard</span>
-          </a>
-
           <a class="launch-card reveal" href="./data_story.html">
             <span class="card-tag">Narrative Insight</span>
             <h3>The Cost of Eating in Nigeria</h3>
@@ -696,17 +689,17 @@
             <span class="card-cta">Read the story</span>
           </a>
 
-          <a class="launch-card reveal" href="./forecast_dashboard.html">
-            <span class="card-tag">Forecast Console</span>
-            <h3>Nigeria Food Price Forecast Dashboard</h3>
-            <p>Tabbed forecast workspace focused on 2025 to 2026 trajectories, model comparison, and summary diagnostics
-              for planning.</p>
+          <a class="launch-card reveal" href="./dashboard_v2.html">
+            <span class="card-tag">Core Analytics</span>
+            <h3>Nigerian Food Price Tracker Dashboard</h3>
+            <p>Comprehensive multi-section dashboard for geographic arbitrage, seasonality, volatility, and executive
+              snapshot metrics.</p>
             <div class="card-meta">
-              <span class="chip">Forecast Focus</span>
-              <span class="chip">Model Evaluation</span>
-              <span class="chip">Planning</span>
+              <span class="chip">Charts</span>
+              <span class="chip">Executive View</span>
+              <span class="chip">Interactive</span>
             </div>
-            <span class="card-cta">Open forecast dashboard</span>
+            <span class="card-cta">Launch dashboard</span>
           </a>
 
           <a class="launch-card reveal" href="./forecast_story.html">
@@ -720,6 +713,19 @@
               <span class="chip">Stakeholders</span>
             </div>
             <span class="card-cta">Explore AI forecast story</span>
+          </a>
+
+          <a class="launch-card reveal" href="./forecast_dashboard.html">
+            <span class="card-tag">Forecast Console</span>
+            <h3>Nigeria Food Price Forecast Dashboard</h3>
+            <p>Tabbed forecast workspace focused on 2025 to 2026 trajectories, model comparison, and summary diagnostics
+              for planning.</p>
+            <div class="card-meta">
+              <span class="chip">Forecast Focus</span>
+              <span class="chip">Model Evaluation</span>
+              <span class="chip">Planning</span>
+            </div>
+            <span class="card-cta">Open forecast dashboard</span>
           </a>
         </section>
       </div>
